@@ -1,0 +1,53 @@
+.home {
+    background: #142d4c;
+    height: 100vh;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.introduction {
+    margin-top: 10%;
+    color: white;
+    /*border: 1px solid black;*/
+}
+
+/*
+.intro {
+    color: darkgray;
+}
+*/
+
+.my-name {
+    font-size: 70px;
+    color: #00FFFF;
+    margin-top: -20px;
+}
+
+.description1 {
+    color: darkgray;
+    font-size: 45px;
+}
+
+.description2 {
+    color: darkgray;
+    margin-top: -10px;
+}
+
+.passport-photo {
+    width: 400px;
+    border-radius: 50%;
+}
