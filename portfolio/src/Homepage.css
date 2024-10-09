@@ -62,13 +62,14 @@ body::-webkit-scrollbar {
 }
 
 .about-image {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 100%;
     align-self: center;
 }
 
 .skill-icons i {
+    font-size: 50px;
     cursor: pointer;
     transition: .6s all ease-in-out;
 }
@@ -97,8 +98,24 @@ body::-webkit-scrollbar {
     color: #10a8da;;
 }
 
-.services {
+.service {
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.card {
     height: fit-content;
+    cursor: pointer;
+    transition: .6s all ease-in-out;
+}
+
+.card:hover {
+    background-color: #7CB9E8;
+}
+
+.card:hover i {
+    color: white;
 }
 
 .card i {
@@ -108,3 +125,60 @@ body::-webkit-scrollbar {
 .card p {
     width: 70%;
 }
+
+@media (min-width: 992px) {
+    .service {
+        margin-top: 30px;
+    }
+
+    .card {
+        height: 450px;
+    }
+}
+
+/* Large breakpoint (typically 992px and above in Bootstrap) */
+@media (max-width: 992px) {
+    .introduction {
+        height: 500px;
+    }
+
+    /* Hide the image at large breakpoint */
+    .passport-photo {
+      display: none;
+    }
+    
+    /* Center the content in the .introduction container */
+    .introduction {
+      justify-content: center; /* Centers the content horizontally */
+      text-align: center; /* Centers the text */
+    }
+  
+    /* Ensure the description column is centered */
+    .intro-desc {
+      width: 100%; /* Makes the intro description take full width */
+      justify-content: center; /* Centers the content vertically */
+      align-items: center; /* Centers the content horizontally */
+    }
+
+    /* .about {
+        text-align: center;
+    } */
+
+    .about img{
+        display: none;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .services {
+        margin-top: -100px;
+        height: 140vh;
+    }
+
+    .service {
+        flex-direction: column;  
+    }
+
+  }

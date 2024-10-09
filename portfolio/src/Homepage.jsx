@@ -19,16 +19,13 @@ function App() {
                 <a href="#aboutpage" className="nav-link">About</a>
               </li>
               <li className="nav-item me-4">
-                <a href="#" className="nav-link">Services</a>
+                <a href="#services" className="nav-link">Services</a>
               </li>
               <li className="nav-item me-4">
                 <a href="#" className="nav-link">Work</a>
               </li>
               <li className="nav-item me-4">
                 <a href="#" className="nav-link">Contact</a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="btn btn-outline-info">Resume</a>
               </li>
             </ul>
           </div>
@@ -41,7 +38,7 @@ function App() {
           <h1 className="my-name">Prince Nabanji.</h1>
           {/* <p className='description1'>A Software Engineer.</p> */}
           <p className='fs-4 description2'>I'm a software engineer currently specializing in building and occassionaly designing exceptional digital experiences. Currently, I'm focused on building accessible, human centered products.</p>
-          <a href="#" className="btn btn-outline-info profile-btn">Check out my Profile</a>
+          <a href="#" className="btn btn-outline-info profile-btn">Hire Me</a>
         </div>
         <img src={passport} alt="passport" className='passport-photo'/>
       </div>
@@ -55,36 +52,47 @@ function App() {
           <p className='fs-5'>Prince Nabanji is a proficient software engineer with a strong foundation in front-end development technologies. With expertise in HTML, CSS, Bootstrap, JavaScript, and React, Prince excels at building responsive, dynamic, and user-friendly web applications.</p>
           <p className='fs-5'>His ability to seamlessly integrate modern design principles with efficient code ensures that every project he works on is optimized for both performance and user experience. Prince is passionate about creating web solutions that are not only aesthetically pleasing but also functional, scalable, and accessible.</p>
           <h1 className="h1">Skills</h1>
-          <div className="skill-icons d-flex gap-2">
-            <i className="fa-brands fa-html5 fs-1 html-icon"></i>
-            <i className="fa-brands fa-css3-alt fs-1 css-icon"></i>
-            <i className="fa-brands fa-bootstrap fs-1 bootstrap-icon"></i>
-            <i className="fa-brands fa-js fs-1 javascript-icon"></i>
-            <i className="fa-brands fa-react fs-1 react-icon"></i>
+          <div className="skill-icons d-flex gap-3">
+            <i className="fa-brands fa-html5 html-icon"></i>
+            <i className="fa-brands fa-css3-alt css-icon"></i>
+            <i className="fa-brands fa-bootstrap bootstrap-icon"></i>
+            <i className="fa-brands fa-js javascript-icon"></i>
+            <i className="fa-brands fa-react react-icon"></i>
           </div>
         </div>
       </div>
      </section>
 
-     <section className="services d-flex flex-column justify-content-center align-items-center m-5 p-5">
+     <section className="services d-flex m-5 p-5" >
       <div className="container d-flex flex-column justify-content-center align-items-center">
+
         <div className="services-intro">
-          <h1 className="h1 fw-light m-5">Services</h1>
+          <h1 className="h1 fw-light">Services</h1>
+          <p className="h3"></p>
         </div>
-        <div className="service d-flex gap-5">
+
+        <div className="service container d-flex gap-3">
+
           <div className="card d-flex justify-content-center align-items-center text-center pt-3 pb-3">
-            <i className="fa-solid fa-desktop"></i>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <i className="fa-solid fa-desktop mt-5"></i>
+            <p className="h2 mt-3">Web development</p>
+            <p className='mt-3 mb-3'> I specialize in creating responsive, user-friendly websites tailored to meet your unique business needs and customer needs. </p>
           </div>
+
           <div className="card d-flex justify-content-center align-items-center text-center pt-3 pb-3">
-            <i className="fa-solid fa-desktop"></i>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <i className="fa-solid fa-binoculars mt-5"></i>
+            <p className="h2 mt-3">Digital Marketing</p>
+            <p className='mt-3 mb-3'>I help businesses improve their online visibility and drive targeted traffic. I create strategies that convert visitors into customers.</p>
           </div>
+
           <div className="card d-flex justify-content-center align-items-center text-center pt-3 pb-3">
-            <i className="fa-solid fa-desktop"></i>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <i className="fa-solid fa-chart-line mt-5"></i>
+            <p className="h2 mt-3">Optimization</p>
+            <p className='mt-3 mb-3'> I fine-tune your website to ensure fast load times, efficient resource usage, and optimal performance across all web-oriented devices.</p>
           </div>
+
         </div>
+
       </div>
      </section>
 
