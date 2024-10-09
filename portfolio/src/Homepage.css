@@ -1,3 +1,7 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .home {
     background: #142d4c;
     height: 100vh;
@@ -22,14 +26,7 @@
 .introduction {
     margin-top: 10%;
     color: white;
-    /*border: 1px solid black;*/
 }
-
-/*
-.intro {
-    color: darkgray;
-}
-*/
 
 .my-name {
     font-size: 70px;
@@ -47,7 +44,67 @@
     margin-top: -10px;
 }
 
+.profile-btn {
+    width: 250px;
+}
+
 .passport-photo {
     width: 400px;
     border-radius: 50%;
+}
+
+.about {
+    height: 100vh;
+}
+
+.about .h1{
+    color: #142d4c;
+}
+
+.about-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.skill-icons i {
+    cursor: pointer;
+    transition: .6s all ease-in-out;
+}
+
+.skill-icons i:hover {
+    transform: scale(1.1);
+}
+
+.html-icon {
+    color: #ff7b00;
+}
+
+.css-icon {
+    color: #006eff;
+}
+
+.bootstrap-icon {
+    color: #B197FC;
+}
+
+.javascript-icon {
+    color: #FFD43B;
+}
+
+.react-icon {
+    color: #10a8da;;
+}
+
+.services {
+    height: fit-content;
+}
+
+.card i {
+    font-size: 60px;
+}
+
+.card p {
+    width: 70%;
 }
