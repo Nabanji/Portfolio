@@ -126,6 +126,42 @@ body::-webkit-scrollbar {
     width: 70%;
 }
 
+.location {
+    height: 30vh;
+}
+
+.location-desc {
+    font-size: 80px;
+    font-style: italic;
+    color: #13274F;
+}
+
+.contact-me {
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.contact-details {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.contact-details div {
+    width: 30%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    transition: .6s all ease-in-out;
+}
+
+.contact-details div:hover {
+    /* width: 30%; */
+    /* cursor: pointer; */
+    /* border-radius: 20px; */
+    border: 1px solid rgba(0, 0, 0, 0.368);
+}
+
+
 @media (min-width: 992px) {
     .service {
         margin-top: 30px;
@@ -160,10 +196,6 @@ body::-webkit-scrollbar {
       align-items: center; /* Centers the content horizontally */
     }
 
-    /* .about {
-        text-align: center;
-    } */
-
     .about img{
         display: none;
     }
@@ -173,12 +205,16 @@ body::-webkit-scrollbar {
     }
 
     .services {
-        margin-top: -100px;
-        height: 140vh;
+        height: fit-content;
     }
 
     .service {
+        height: fit-content;
         flex-direction: column;  
+    }
+
+    .location {
+        font-size: 20px;
     }
 
   }

@@ -9,7 +9,7 @@ function App() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">Prince Nabanji</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation" >
             <span className="navbar-toggler-icon"></span>
           </button>
 
@@ -63,16 +63,14 @@ function App() {
       </div>
      </section>
 
-     <section className="services d-flex m-5 p-5" >
+     <section className="services d-flex m-5 p-5" id='services'>
       <div className="container d-flex flex-column justify-content-center align-items-center">
-
         <div className="services-intro">
-          <h1 className="h1 fw-light">Services</h1>
+          <h1 className="h1 fw-semibold mb-sm-4">Services</h1>
           <p className="h3"></p>
         </div>
 
         <div className="service container d-flex gap-3">
-
           <div className="card d-flex justify-content-center align-items-center text-center pt-3 pb-3">
             <i className="fa-solid fa-desktop mt-5"></i>
             <p className="h2 mt-3">Web development</p>
@@ -90,11 +88,43 @@ function App() {
             <p className="h2 mt-3">Optimization</p>
             <p className='mt-3 mb-3'> I fine-tune your website to ensure fast load times, efficient resource usage, and optimal performance across all web-oriented devices.</p>
           </div>
-
         </div>
-
       </div>
      </section>
+
+     <section className="location d-flex justify-content-center align-items-center">
+      <div className="container">
+        <marquee><h1 className='fw-medium location-desc'>SOFTWARE ENGINEER FROM NAIROBI, KENYA</h1></marquee>
+      </div>
+     </section>
+
+     <section className="contact-me d-flex flex-column justify-content-center align-items-center">
+      <div className="container d-flex flex-column justify-content-center align-items-center">
+        <h1 className="h1">Contact Me</h1>
+        <p className="fs-1">Let's start a new project together</p>
+        <div className="contact-details d-flex justify-content-center gap-4">
+          <div className='d-flex flex-column justify-content-center align-items-center p-4'>
+            <i className="fa-solid fa-location-dot fs-4"></i>
+            <p className="fs-3 pt-2">Location</p>
+            <p className="fs-4">Nairobi, Kenya</p>
+          </div>
+  
+          <div className='d-flex flex-column justify-content-center align-items-center p-4'>
+            <i className="fa-solid fa-phone fs-4"></i>
+            <p className="fs-3 pt-2">Phone</p>
+            <p className="fs-4">(0792) 067 722</p>
+          </div>
+  
+          <div className='d-flex flex-column justify-content-center align-items-center p-4'>
+            <i className="fa-solid fa-envelope fs-4"></i>
+            <p className="fs-3 pt-2">Email</p>
+            <p className="fs-4">pnabanji@gmail.com</p>
+          </div>
+  
+        </div>
+      </div>
+     </section>
+
 
     </>
   )
