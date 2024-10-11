@@ -138,12 +138,10 @@ body::-webkit-scrollbar {
 
 .contact-me {
     height: 100vh;
-    /* border: 1px solid black; */
 }
 
 .contact-details {
     width: 100%;
-    /* border: 1px solid black; */
 }
 
 .contact-details div {
@@ -155,10 +153,19 @@ body::-webkit-scrollbar {
 }
 
 .contact-details div:hover {
-    /* width: 30%; */
-    /* cursor: pointer; */
-    /* border-radius: 20px; */
     border: 1px solid rgba(0, 0, 0, 0.368);
+}
+
+.mb-3 {
+    width: 60%;
+}
+
+.container div input {
+    width: 400px;
+    height: 34px;
+    padding: 16px;
+    border-radius: 12px;
+    outline: none;
 }
 
 
@@ -213,8 +220,35 @@ body::-webkit-scrollbar {
         flex-direction: column;  
     }
 
+    .card {
+        width: 100%;
+    }
+
     .location {
         font-size: 20px;
+    }
+
+    .contact-me {
+        margin-top: 40px;
+    }
+
+    .contact-details {
+        align-items: center;
+        flex-direction: column;    
+    }
+
+    .contact-details div {
+        width: 50%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer .container input{
+        width: 90%;
     }
 
   }

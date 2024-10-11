@@ -67,7 +67,6 @@ function App() {
       <div className="container d-flex flex-column justify-content-center align-items-center">
         <div className="services-intro">
           <h1 className="h1 fw-semibold mb-sm-4">Services</h1>
-          <p className="h3"></p>
         </div>
 
         <div className="service container d-flex gap-3">
@@ -100,27 +99,50 @@ function App() {
 
      <section className="contact-me d-flex flex-column justify-content-center align-items-center">
       <div className="container d-flex flex-column justify-content-center align-items-center">
-        <h1 className="h1">Contact Me</h1>
+        <h1 className="h6" style={{textTransform: 'uppercase', letterSpacing: '2px', color: 'orangered'}}>Contact Me</h1>
         <p className="fs-1">Let's start a new project together</p>
         <div className="contact-details d-flex justify-content-center gap-4">
           <div className='d-flex flex-column justify-content-center align-items-center p-4'>
-            <i className="fa-solid fa-location-dot fs-4"></i>
+            <i className="fa-solid fa-location-dot fs-4" style={{color: 'orangered'}}></i>
             <p className="fs-3 pt-2">Location</p>
             <p className="fs-4">Nairobi, Kenya</p>
           </div>
   
           <div className='d-flex flex-column justify-content-center align-items-center p-4'>
-            <i className="fa-solid fa-phone fs-4"></i>
+            <i className="fa-solid fa-phone fs-4" style={{color: 'orangered'}}></i>
             <p className="fs-3 pt-2">Phone</p>
             <p className="fs-4">(0792) 067 722</p>
           </div>
   
           <div className='d-flex flex-column justify-content-center align-items-center p-4'>
-            <i className="fa-solid fa-envelope fs-4"></i>
+            <i className="fa-solid fa-envelope fs-4" style={{color: 'orangered'}}></i>
             <p className="fs-3 pt-2">Email</p>
             <p className="fs-4">pnabanji@gmail.com</p>
+          </div> 
+        </div>
+      </div>
+     </section>
+
+     <section className="footer p-5">
+      <div className="container d-flex justify-content-between">
+        <div>
+          <h1 className="h2">Prince</h1>
+          <p className="fs-5">All rights reserved &copy;Prince Nabanji</p>
+        </div>
+        <div>
+          <h1 className="h2">Newsletter</h1>
+          <input 
+            type="text"
+            placeholder='Submit your email' 
+          />
+        </div>
+        <div>
+          <h1 className="h2">Follow Me</h1>
+          <div className="social-links d-flex gap-4">
+            <i className="fa-brands fa-github fs-2"></i>
+            <i className="fa-brands fa-linkedin fs-2"></i>
+            <i className="fa-brands fa-instagram fs-2"></i>
           </div>
-  
         </div>
       </div>
      </section>
