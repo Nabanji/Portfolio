@@ -34,11 +34,6 @@ body::-webkit-scrollbar {
     margin-top: -20px;
 }
 
-.description1 {
-    color: darkgray;
-    font-size: 45px;
-}
-
 .description2 {
     color: darkgray;
     margin-top: -10px;
@@ -96,7 +91,7 @@ body::-webkit-scrollbar {
 
 .react-icon {
     color: #10a8da;;
-}
+} */
 
 .service {
     justify-content: center;
