@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
 
 .react-icon {
     color: #10a8da;;
-} */
+}
 
 .service {
     justify-content: center;
@@ -131,38 +131,48 @@ body::-webkit-scrollbar {
     color: #13274F;
 }
 
-.contact-me {
-    height: 100vh;
+.social-links a i {
+    color: black;
+    transition: .4s all ease-in-out;
 }
 
-.contact-details {
-    width: 100%;
+.social-links a i:hover {
+    color: orangered;
 }
 
-.contact-details div {
+.links .links-div {
     width: 30%;
-    cursor: pointer;
-    border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.075);
-    transition: .6s all ease-in-out;
 }
 
-.contact-details div:hover {
-    border: 1px solid rgba(0, 0, 0, 0.368);
+.links .read-more {
+    width: 150px;
+    height: 40px;
+    border-radius: 0px 1rem 0px 1rem;
+    transition: .4s all ease-in-out;
+    background: transparent;
 }
 
-.mb-3 {
-    width: 60%;
-}
-
-.container div input {
-    width: 400px;
-    height: 34px;
-    padding: 16px;
-    border-radius: 12px;
+.links .read-more:hover {
+    border-radius: 1rem 0px 1rem 0px;
+    background-color: orangered;
+    border: none;
     outline: none;
+    color: white;
 }
 
+.links div ul {
+    list-style-type: none;
+}
+
+.links div ul li a {
+    color: black;
+    text-decoration: none;
+    transition: .4s all ease-in-out;
+}
+
+.links div ul li a:hover {
+    color: orangered;
+}
 
 @media (min-width: 992px) {
     .service {
@@ -223,17 +233,19 @@ body::-webkit-scrollbar {
         font-size: 20px;
     }
 
-    .contact-me {
-        margin-top: 40px;
+    .links-div {
+        min-width: 100%;
     }
 
-    .contact-details {
-        align-items: center;
-        flex-direction: column;    
+    .newsletter .input-group {
+        display: flex;
+        flex-direction: column;
     }
 
-    .contact-details div {
-        width: 50%;
+    .newsletter .input-group button {
+        width: 40%;
+        margin-top: 2px;
+        border-radius: 0px;
     }
 
     .footer .container {
