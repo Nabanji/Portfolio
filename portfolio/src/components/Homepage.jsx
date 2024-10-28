@@ -3,7 +3,7 @@ import passport from '../assets/passport.jpg';
 function Homepage() {
   return (
     <>
-     <section className="home">
+     <section className="home" id='home'>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">Prince Nabanji</a>

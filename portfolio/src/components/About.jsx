@@ -1,6 +1,8 @@
+// import { useEffect, useRef, useState } from 'react'
 import passport from '../assets/passport.jpg'
 
 function About() {
+
     return (
         <section className='about d-flex' id='aboutpage'>
             <div className="container d-flex gap-5 justify-content-center">

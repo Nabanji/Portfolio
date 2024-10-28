@@ -1,8 +1,7 @@
 function Footer() {
     return (
         <section className="footer p-5" id="footer">
-
-            <div className="container d-flex justify-content-between align-items-center newsletter m-5">
+            <div className="container d-flex justify-content-between align-items-center newsletter m-5 socials">
                 <h1 className="h3">Socials</h1>
 
                 <div className="social-links d-flex gap-4">
@@ -22,10 +21,11 @@ function Footer() {
                 <div className="links-div">
                     <p className="fs-3">Links</p>
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="$">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutpage">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#home">Work</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div>
 
@@ -34,7 +34,7 @@ function Footer() {
                     <p className="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sapiente?</p>
                     <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Enter your email" />
-                        <button className="btn btn-outline-secondary" type="button">Submit</button>
+                        <button className="btn btn-outline-secondary" type="submit">Submit</button>
                     </div>
                 </div>
 
