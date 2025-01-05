@@ -1,4 +1,4 @@
-import eliteKicks from './assets/Elite Kicks.png';
+import eliteKicks from '../assets/Elite Kicks.png';
 
 export default function Projects() {
     return (
