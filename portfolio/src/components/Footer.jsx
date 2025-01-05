@@ -24,13 +24,13 @@ function Footer() {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#aboutpage">About</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#home">Work</a></li>
+                        <li><a href="#projects">Work</a></li>
                         <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div>
 
                 <div className="links-div newsletter">
-                    <p className="fs-3">Newsletter</p>
+                    <p className="fs-3">Let's work together</p>
                     <p className="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sapiente?</p>
                     <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Enter your email" />
