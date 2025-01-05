@@ -1,3 +1,5 @@
+import eliteKicks from './assets/Elite Kicks.png';
+
 export default function Projects() {
     return (
         <div className="projects-section" id="projects">
@@ -6,7 +8,7 @@ export default function Projects() {
             <div className="projects-container">
 
                 <div className="project">
-                    <img src="src/assets/Elite Kicks.png" alt="project" width='100%' height='auto' />
+                    <img src={eliteKicks} alt="project" width='100%' height='auto' />
                     <div className="project-desc">
                         <div className="description">
                             <h2 className="h4">Elite Kicks</h2>
@@ -19,7 +21,7 @@ export default function Projects() {
                 </div>
 
                 <div className="project">
-                    <img src="src/assets/Elite Kicks.png" alt="project" width='100%' height='auto' />
+                    <img src={eliteKicks} alt="project" width='100%' height='auto' />
                     <div className="project-desc">
                         <div className="description">
                             <h2 className="h4">Elite Kicks</h2>
