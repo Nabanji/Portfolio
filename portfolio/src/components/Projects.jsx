@@ -5,6 +5,7 @@ export default function Projects() {
         <div className="projects-section" id="projects">
             <h1>Projects</h1>
             <div className="underline"></div>
+
             <div className="projects-container">
 
                 <div className="project">
@@ -15,7 +16,7 @@ export default function Projects() {
                             <p className="fs-5">E-commerce design for selling shoes</p>
                         </div>
                         <div className="view">
-                            <a href="https://nabanji.github.io/Elite-Kicks/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="https://nabanji.github.io/Elite-Kicks/" target="_blank"><i className="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
                 </div>
@@ -29,9 +30,10 @@ export default function Projects() {
                             {/* <p className="fs-6">A modern, user-friendly e-commerce frontend featuring intuitive navigation, responsive design, and visually appealing product displays.</p> */}
                         </div>
                         <div className="view">
-                            <a href="https://nabanji.github.io/Elite-Kicks/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            <a href="https://nabanji.github.io/Elite-Kicks/" target="_blank"><i className="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
+
                 </div>
 
             </div>

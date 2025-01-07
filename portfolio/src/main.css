@@ -33,10 +33,8 @@ body::-webkit-scrollbar {
 }
 
 .introduction {
-    /* margin-top: 10%; */
     padding-top: 15%;
     color: white;
-    /* height: calc(100vh - 60px); */
 }
 
 .my-name {
@@ -263,14 +261,32 @@ body::-webkit-scrollbar {
 
 /* Large breakpoint (typically 992px and above in Bootstrap) */
 @media (max-width: 992px) {
+    .home {
+        height: fit-content;
+    }
+
+    .home nav {
+        height: fit-content;
+    }
+
     .introduction {
-        height: 500px;
-        padding-top: 50%;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30%;
+        /* border:  1px solid red; */
+    }
+
+    .passport-photo {
+        max-width: 50%;
+        height: auto;
+        margin-bottom: 10px;
     }
 
     /* Hide the image at large breakpoint */
     .passport-photo {
-      display: none;
+      display: block;
     }
     
     /* Center the content in the .introduction container */
@@ -306,6 +322,36 @@ body::-webkit-scrollbar {
     .card {
         width: 100%;
     }
+    
+    .projects-section {
+        height: fit-content;
+        width: 100%;
+        padding: 10% 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    .project-desc {
+        justify-content: space-around;
+    }
+
+    .view a {
+        margin-right: 20px;
+    }
+
 
     .location-desc {
         font-size: 40px;
@@ -363,4 +409,49 @@ body::-webkit-scrollbar {
         width: 90%;
     }
 
-  }
+}
+
+@media screen and (max-width: 500px) {
+
+    .services {
+        width: 100vw;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service .card {
+        width: 100%;
+    }
+
+    .projects-section {
+        height: fit-content;
+        width: 100%;
+        padding: 10% 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    .project-desc {
+        justify-content: space-around;
+    }
+
+    .view a {
+        margin-right: 20px;
+    }
+
+}
