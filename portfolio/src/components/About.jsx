@@ -19,6 +19,8 @@ function About() {
                         <i className="fa-brands fa-bootstrap bootstrap-icon"></i>
                         <i className="fa-brands fa-js javascript-icon"></i>
                         <i className="fa-brands fa-react react-icon"></i>
+                        <i className="fa-brands fa-node-js"></i>
+                        <i className="fa-solid fa-database"></i>
                     </div>
                 </div>
 

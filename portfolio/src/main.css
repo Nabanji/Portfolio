@@ -262,7 +262,7 @@ body::-webkit-scrollbar {
 /* Large breakpoint (typically 992px and above in Bootstrap) */
 @media (max-width: 992px) {
     .home {
-        height: fit-content;
+        height: 100vh;
     }
 
     .home nav {
@@ -330,7 +330,7 @@ body::-webkit-scrollbar {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .projects-container {
@@ -357,9 +357,9 @@ body::-webkit-scrollbar {
         font-size: 40px;
     }
 
-    .footer {
+    /* .footer {
         border: 1px solid black;
-    }
+    } */
 
     .socials h1 {
         display: none;
@@ -412,6 +412,30 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 500px) {
+    .home {
+        height: 100vh;
+    }
+
+    .about-description .h1 {
+        font-size: 24px;
+        padding-left: 12px;
+    }
+
+    .about-description .fs-5 {
+        font-size: 14px;
+        padding-left: 12px;
+        padding-right: 6px;
+    }
+
+    .skill-icons {
+        padding-left: 12px;
+    }
+
+   .skill-icons i {
+    flex-wrap: wrap;
+    font-size: 30px;
+    gap: 0;
+   }
 
     .services {
         width: 100vw;
@@ -432,7 +456,6 @@ body::-webkit-scrollbar {
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid black;
     }
 
     .projects-container {
