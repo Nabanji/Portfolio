@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -72,8 +76,18 @@ body::-webkit-scrollbar {
     align-self: center;
 }
 
+.skill-icons {
+    flex-wrap: wrap;
+}
+
 .skill-icons i {
-    font-size: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .6s all ease-in-out;
+}
+
+.technology-icons i {
+    font-size: 40px;
     cursor: pointer;
     transition: .6s all ease-in-out;
 }
@@ -102,6 +116,26 @@ body::-webkit-scrollbar {
     color: #10a8da;;
 }
 
+.nodejs-icon {
+    color: green;
+}
+
+.database-icon {
+    color: rgb(0, 170, 255);
+}
+
+.git-icon {
+    color: #f34f29;
+}
+
+.github-icon {
+    color: black;
+}
+
+.services-intro {
+    width: 100%;
+}
+
 .service {
     justify-content: center;
     align-items: center;
@@ -115,11 +149,8 @@ body::-webkit-scrollbar {
 }
 
 .card:hover {
-    background-color: #7CB9E8;
-}
-
-.card:hover i {
-    color: white;
+    box-shadow: 2px 2px 2px lightgray;
+    scale: 1.03;
 }
 
 .card i {
@@ -157,7 +188,6 @@ body::-webkit-scrollbar {
 
 .project {
     width: 40%;
-    /* display: flex; */
     border: 1px solid lightgray;
     cursor: pointer;
     transition: .4s all ease;
@@ -167,15 +197,19 @@ body::-webkit-scrollbar {
     box-shadow: 2px 2px 2px lightgray;
 } 
 
+.project img {
+    border-bottom: 1px solid lightgray;
+}
+
 .project-desc {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* border: 1px solid black; */
+    padding: 0px 22px;
 }
 
 .description {
-    padding: 10px;
+    margin: 12px 0px;
 }
 
 .view a {
@@ -200,7 +234,7 @@ body::-webkit-scrollbar {
 
 .underline {
     width: 100px;
-    height: 1px;
+    height: 2px;
     background-color: orangered;
 }
 
@@ -437,6 +471,16 @@ body::-webkit-scrollbar {
     gap: 0;
    }
 
+   .technology-icons i {
+    flex-wrap: wrap;
+    font-size: 30px;
+    gap: 0;
+   }
+
+   .git-icon {
+    margin-left: 12px;
+   }
+
     .services {
         width: 100vw;
     }
@@ -475,6 +519,10 @@ body::-webkit-scrollbar {
 
     .view a {
         margin-right: 20px;
+    }
+
+    .copyright {
+        margin-bottom: -20px !important;
     }
 
 }
