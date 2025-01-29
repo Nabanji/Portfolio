@@ -13,36 +13,37 @@ function Footer() {
 
             <div className="container d-flex justify-content-between gap-4 links">
                 <div className="links-div">
-                    <p className="fs-3">About me</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolore totam cumque in ullam incidunt recusandae veniam doloribus tempora neque!</p>
+                    <p className="fs-3"><strong>About me</strong></p>
+                    <p>I'm Prince Nabanji. A passionate Software Developer specializing in building dynamic and scalable web applications</p>
                     <a href="#aboutpage"><button className="read-more">Read More</button></a>
                 </div>
 
                 <div className="links-div">
-                    <p className="fs-3">Links</p>
+                    <p className="fs-3"><strong>Links</strong></p>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#aboutpage">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#projects">Work</a></li>
-                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="https://github.com/Nabanji">Github</a></li>
+                        <li><a href="https://github.com/Nabanji">LinkedIn</a></li>
                     </ul>
                 </div>
 
                 <div className="links-div newsletter">
-                    <p className="fs-3">Let's work together</p>
-                    <p className="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sapiente?</p>
-                    <div className="input-group mb-3">
-                        <input type="text" className="form-control" placeholder="Enter your email" />
-                        <button className="btn btn-outline-secondary" type="submit">Submit</button>
-                    </div>
+                    <p className="fs-3"><strong>Let's work together</strong></p>
+                    <p className="fs-6">You can contact me via email through</p>
+                    <ul className="contact-me">
+                        <li>Email: <strong>pnabanji@gmail.com</strong></li>
+                        <li>Phone: <strong>0792067722</strong></li>
+                    </ul>
                 </div>
 
             </div>
 
             <div>
-                <p className="fs-6 text-center m-5">
-                    Copyright &copy;Prince Nabanji 2024, All right reserved
+                <p className="copyright fs-6 text-center m-5" style={{fontWeight: 'bold'}}>
+                    <span style={{fontStyle: 'italic'}}>Copyright</span> &copy;Prince Nabanji 2025, All right reserved
                 </p>
             </div>
 
