@@ -445,7 +445,18 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 566px) and (max-width: 991px) {
+    .home {
+        height: 100vh;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
     .home {
         height: 100vh;
     }

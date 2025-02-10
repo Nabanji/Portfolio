@@ -1,4 +1,3 @@
-// import { useEffect, useRef, useState } from 'react'
 import passport from '../assets/passport.jpg'
 
 function About() {
@@ -10,7 +9,7 @@ function About() {
 
                 <div className="about-description d-flex flex-column justify-content-center">
                     <p className="h1">Bio</p>
-                    <p className='fs-5'>I am a proficient software developer with a strong foundation in web development technologies. With expertise in HTML, CSS, Bootstrap, JavaScript, React, nodeJS and expressJS and MYSQL. I excel at building responsive, dynamic, and user-friendly web applications.</p>
+                    <p className='fs-5'>I am a proficient software developer with a strong foundation in web development technologies. With expertise in HTML, CSS, Bootstrap, JavaScript, React, Node.js and Express.js and MYSQL. I excel at building responsive, dynamic, and user-friendly web applications.</p>
                     <p className='fs-5'>My ability to seamlessly integrate modern design principles with efficient code ensures that every project he works on is optimized for both performance and user experience. I am passionate about creating web solutions that are not only aesthetically pleasing but also functional, scalable, and accessible.</p>
                     <h1 className="h3">Skills: </h1>
                     <div className="skill-icons d-flex gap-3">
