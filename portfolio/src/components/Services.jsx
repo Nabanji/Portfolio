@@ -7,7 +7,7 @@ function Services() {
                     <div className="underline mb-3"></div>
                 </div>
 
-                <div className="service container d-flex gap-3">
+                <div className="service d-flex gap-3">
 
                     <div className="card d-flex justify-content-center align-items-center text-center pt-3 pb-3">
                         <i className="fa-solid fa-desktop mt-5"></i>
