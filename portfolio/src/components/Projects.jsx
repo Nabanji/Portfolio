@@ -1,5 +1,6 @@
 import eliteKicks from '../assets/Elite Kicks.png';
 import easyHire from '../assets/easyhire-sc.png';
+import mayflower from '../assets/mayflower.png';
 
 export default function Projects() {
     return (
@@ -31,7 +32,17 @@ export default function Projects() {
                             <a href="https://github.com/Nabanji/EasyHire" target="_blank"><i className="fa-solid fa-up-right-from-square"></i></a>
                         </div>
                     </div>
-
+                </div>
+                <div className="project">
+                    <img src={mayflower} alt="project" width='100%' height='auto' />
+                    <div className="project-desc">
+                        <div className="description">
+                            <h2 className="h4">Mayflower</h2>
+                        </div>
+                        <div className="view">
+                            <a href="https://mayflower-rose.vercel.app/" target="_blank"><i className="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
                 </div>
 
             </div>

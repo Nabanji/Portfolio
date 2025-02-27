@@ -179,15 +179,18 @@ body::-webkit-scrollbar {
 
 .projects-container {
     width: 100%;
-    padding: 20px 0px;
-    display: flex;
-    flex-wrap: wrap !important;
+    padding: 20px 10px;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    /* border: 1px solid black; */
 }
 
 .project {
-    width: 40%;
+    /* width: 40%; */
+    min-width: 200px; /* Adjust this value as needed */
+    border: 1px solid #ccc; /* Optional: Add a border to visualize the grid items */
     border: 1px solid lightgray;
     cursor: pointer;
     transition: .4s all ease;
@@ -296,7 +299,7 @@ body::-webkit-scrollbar {
 /* Large breakpoint (typically 992px and above in Bootstrap) */
 @media (max-width: 992px) {
     .home {
-        height: 100vh;
+        height: fit-content;
     }
 
     .home nav {
@@ -447,7 +450,7 @@ body::-webkit-scrollbar {
 
 @media screen and (min-width: 566px) and (max-width: 991px) {
     .home {
-        height: 100vh;
+        height: fit-content;
     }
 
     .card {
